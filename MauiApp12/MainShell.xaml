@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp12.MainShell"
+             xmlns:local="clr-namespace:MauiApp12"
+             Title="MainShell"
+             BackgroundColor="White">
+    <FlyoutItem Title="Test">
+        <Tab Title="Main">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+    </FlyoutItem>
+</Shell>
